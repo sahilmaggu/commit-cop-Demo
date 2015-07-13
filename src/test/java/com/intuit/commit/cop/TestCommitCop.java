@@ -10,6 +10,7 @@ public class TestCommitCop {
 	
 	@Test
 	public void testwelcome(){
+		String pawan = "TempStrinh";
 		String message = CommitCop.welcome();
 		Assert.assertEquals("Hello World Sahil-6", message);
 	}
